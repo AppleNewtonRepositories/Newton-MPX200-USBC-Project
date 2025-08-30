@@ -1,1 +1,3 @@
 This is a folder for reeference designs
+
+The Newton messagepad-2x00 aa battery tray file is printed standing on the bottom with the pull tab facing up when slicing and has been tested in an MP2000 and 2100.
