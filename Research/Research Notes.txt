@@ -1,0 +1,17 @@
+Research Notes:
+
+Batteries:
+There are many batteries available that could be used, focussing on Lithium ION is the main goal for availability, stability, and new chemistry.
+1) Pouch Cells - Pouch cells must be able to fit inside of the modified tray.  They are known to catastrophically fail, but are technologies that are used in almost all small devices such as smartphones.  They support a high charge and discharge rate and are readily available.
+
+2) Enclosed Cells - There are many cells available in a closed cell that could be used but only the AA (14500) and AAA (10440) sizes will work, we must limit to two cells in order to make room in the tray for the charging boards.
+
+Charging Boards:
+There are quite a few charging boards available off the shelf that will fit the application.  So far I am investigating the below from Amazon:
+
+https://www.amazon.com/dp/B09YD5C9QC/?coliid=IGK29KRJ5059B&colid=3E1ANMQW75AF1&ref_=abl_lv_ov_lig_dp_it&th=1
+
+https://www.amazon.com/dp/B0D7Z92K51/?coliid=I3PQAYFYV5CISU&colid=3E1ANMQW75AF1&ref_=abl_lv_ov_lig_dp_it&th=1
+
+If we go to NIMH AAA cells and use USBC with those we can use this board:
+https://www.amazon.com/dp/B0D6BDFXLH/?coliid=I2627VQDM7IJH2&colid=3E1ANMQW75AF1&ref_=abl_lv_ov_lig_dp_it&th=1
