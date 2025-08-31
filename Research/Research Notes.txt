@@ -1,5 +1,9 @@
 Research Notes:
 
+None of this information has been tested at this point!  This is for reference only!  
+
+I AM NOT RESPONSIBLE FOR ITS USE!
+
 Batteries:
 There are many batteries available that could be used, focussing on Lithium ION is the main goal for availability, stability, and new chemistry.
 1) Pouch Cells - Pouch cells must be able to fit inside of the modified tray.  They are known to catastrophically fail, but are technologies that are used in almost all small devices such as smartphones.  They support a high charge and discharge rate and are readily available.
@@ -9,9 +13,23 @@ There are many batteries available that could be used, focussing on Lithium ION 
 Charging Boards:
 There are quite a few charging boards available off the shelf that will fit the application.  So far I am investigating the below from Amazon:
 
-https://www.amazon.com/dp/B09YD5C9QC/?coliid=IGK29KRJ5059B&colid=3E1ANMQW75AF1&ref_=abl_lv_ov_lig_dp_it&th=1
+https://www.amazon.com/dp/B09YD5C9QC/
 
-https://www.amazon.com/dp/B0D7Z92K51/?coliid=I3PQAYFYV5CISU&colid=3E1ANMQW75AF1&ref_=abl_lv_ov_lig_dp_it&th=1
+https://www.amazon.com/dp/B0D7Z92K51/
 
 If we go to NIMH AAA cells and use USBC with those we can use this board:
-https://www.amazon.com/dp/B0D6BDFXLH/?coliid=I2627VQDM7IJH2&colid=3E1ANMQW75AF1&ref_=abl_lv_ov_lig_dp_it&th=1
+https://www.amazon.com/dp/B0D6BDFXLH/
+
+Boost Converter:
+I have been toying around with the idea of a boost converter that can be used to USB-C charge the newton externally from any power supply.
+
+This would require two components, one to get the power from USB-C and one to get the power to the newton and regulate current and voltage to a respectible voltage.
+
+Boost Converter https://www.amazon.com/Converter-2-6-5-5-Step-up-Voltage-Regulator/dp/B084Z3CS3M/
+
+Module to get USB-C at 1A for the boost converter:
+Set for 5V Output!!!!  Verify everything with a volt meter!!!
+https://www.amazon.com/ACEIRMC-Trigger-Polling-Detector-Notebook/dp/B0BTHXKM91/
+
+Tips that should fit a newton:
+https://www.amazon.com/uxcell-4-8x1-7mm-Solderless-Connectors-Replacement/dp/B07F68VWZY
