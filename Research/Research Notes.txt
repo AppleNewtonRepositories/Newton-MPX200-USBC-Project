@@ -12,9 +12,10 @@ There are many batteries available that could be used, focussing on Lithium ION 
 
 Charging Boards:
 There are quite a few charging boards available off the shelf that will fit the application.  So far I am investigating the below from Amazon:
-
+This one is Yet untested but the newton draws less than 100ma so it will not power the clock when idle
 https://www.amazon.com/dp/B09YD5C9QC/
 
+This one has been tested, however when the USB is switched from charge to power and back there is a 1-2 second delay in switch which interrupts the power for the battery.  I am looking at adding an intelligent boost board that will allow power with a cutoff for dead batteries that can work along side this.
 https://www.amazon.com/dp/B0D7Z92K51/
 
 If we go to NIMH AAA cells and use USBC with those we can use this board:
